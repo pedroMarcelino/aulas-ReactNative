@@ -7,6 +7,7 @@ import Tamanhos from "./Tamanhos";
 import Flexbox from "./Flexbox";
 import Inputs from "./Inputs";
 import FlatList from "./FlatList";
+import Picker from "./Picker";
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
           <Flexbox />
           {/* Comentado para nao dar gargalo com o scrollview */}
           {/* <FlatList /> */}
+          <Picker />
         </View>
       </ScrollView>
 
