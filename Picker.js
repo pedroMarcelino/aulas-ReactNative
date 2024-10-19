@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { View, StyleSheet, Text } from "react-native";
 import { Picker } from '@react-native-picker/picker';
 
+import Line from './Line';
+
 export default class PickerClass extends Component {
 
     constructor(props) {
@@ -39,6 +41,8 @@ export default class PickerClass extends Component {
 
                 <Text style={s.pizzas}>Voce escolheu:{this.state.pizzas[this.state.pizza].nome}</Text>
                 <Text style={s.pizzas}>R$: {this.state.pizzas[this.state.pizza].valor}</Text>
+
+                <Line />
             </View>
         );
     }
