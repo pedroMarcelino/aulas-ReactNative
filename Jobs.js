@@ -25,7 +25,7 @@ class Img extends Component {
                     style={{
                         width: this.props.largura,
                         height: this.props.altura,
-                        marginTop: 30,
+                        marginTop: "5%",
                     }}
                 />
                 <Text>{this.props.nome}</Text>

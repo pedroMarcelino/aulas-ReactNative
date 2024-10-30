@@ -9,7 +9,8 @@ import Inputs from "./Inputs";
 import FlatListPage from "./FlatListPage";
 import Picker from "./Picker";
 import SliderPage from "./SliderPage";
-
+import AsyncTela from "./AsyncTela";
+import ModalTela from "./ModalTela";
 
 class App extends Component {
   render() {
@@ -26,6 +27,8 @@ class App extends Component {
           {/* <FlatList /> */}
           <Picker />
           <SliderPage />
+          <AsyncTela />
+          <ModalTela />
         </View>
       </ScrollView>
 

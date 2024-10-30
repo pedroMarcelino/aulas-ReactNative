@@ -25,6 +25,7 @@ class SliderPage extends Component {
 
                 <Switch value={this.state.status} onValueChange={(value) => this.setState({ status: value })} />
                 <Text>Valor: {(this.state.status) ? 'ativo' : 'inativo'}</Text>
+                <Line />
             </View>
         );
     }

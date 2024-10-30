@@ -34,8 +34,7 @@ export default class PickerClass extends Component {
 
                 <Picker
                     selectedValue={this.state.pizza}
-                    onValueChange={(itemValue, itemIndex) => { this.setState({ pizza: itemValue }) }}
-                >
+                    onValueChange={(itemValue, itemIndex) => { this.setState({ pizza: itemValue }) }}>
                     {pizzasItem}
                 </Picker>
 
